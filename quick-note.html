@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hızlı Not</title>
+    <link rel="stylesheet" href="quick-note.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hızlı Not</h1>
+        <form id="quick-note-form">
+            
+            <div class="category">
+                <label>Enerji Seviyesi ⚡</label>
+                <div class="stars" data-category="Enerji Seviyesi"></div>
+                <textarea name="Enerji Seviyesi" placeholder="Notunuzu girin..." maxlength="200"></textarea>
+            </div>
+
+            <div class="category">
+                <label>Zindelik Seviyesi 🏃‍♂️</label>
+                <div class="stars" data-category="Zindelik Seviyesi"></div>
+                <textarea name="Zindelik Seviyesi" placeholder="Notunuzu girin..." maxlength="200"></textarea>
+            </div>
+
+            <div class="category">
+                <label>Odaklanma Seviyesi 🎯</label>
+                <div class="stars" data-category="Odaklanma Seviyesi"></div>
+                <textarea name="Odaklanma Seviyesi" placeholder="Notunuzu girin..." maxlength="200"></textarea>
+            </div>
+
+            <div class="category">
+                <label>İyilik Hali 😊</label>
+                <div class="stars" data-category="İyilik Hali"></div>
+                <textarea name="İyilik Hali" placeholder="Notunuzu girin..." maxlength="200"></textarea>
+            </div>
+
+            <div class="category">
+                <label>Rahatlık Seviyesi 🧘‍♂️</label>
+                <div class="stars" data-category="Rahatlık Seviyesi"></div>
+                <textarea name="Rahatlık Seviyesi" placeholder="Notunuzu girin..." maxlength="200"></textarea>
+            </div>
+
+            <div class="category">
+                <label>Motivasyon Seviyesi 🔥</label>
+                <div class="stars" data-category="Motivasyon Seviyesi"></div>
+                <textarea name="Motivasyon Seviyesi" placeholder="Notunuzu girin..." maxlength="200"></textarea>
+            </div>
+
+            <button type="submit">Tamamla ✅</button>
+        </form>
+    </div>
+
+    <!-- Script dosyaları en sona taşındı -->
+    <script type="module" src="firebase-config.js"></script>
+    <script type="module" src="quick-note.js"></script>
+</body>
+</html>
