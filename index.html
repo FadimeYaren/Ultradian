@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultradian Ritim Takibi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ultradian Ritim Takibi</h1>
+        <div class="button-container">
+            <button onclick="navigate('quick-note.html')">Hızlı Not</button>
+            <button onclick="navigate('line-chart.html')">Çizgi Grafik</button>
+            <button onclick="navigate('bar-chart.html')">Sütun Grafiği</button>
+            <button onclick="navigate('notes.html')">Notlar</button>
+        </div>
+    </div>
+
+    <script>
+        function navigate(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
